@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'ms100';
+	src: url('fonts/ms100/ms100.eot');
+	src: local('☺'), url('fonts/ms100/ms100.woff') format('woff'), url('fonts/ms100/ms100.ttf') format('truetype'), url('fonts/ms100/ms100.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ms900';
+	src: url('fonts/ms900/ms900.eot');
+	src: local('☺'), url('fonts/ms900/ms900.woff') format('woff'), url('fonts/ms900/ms900.ttf') format('truetype'), url('fonts/ms900/ms900.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

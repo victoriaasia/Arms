@@ -1,0 +1,29 @@
+@import 'colors'
+@import 'mixins'
+@import 'reset'
+@import 'header'
+
+*
+  box-sizing: border-box
+.wrapper ::-moz-selection
+  background: $desc
+  color: white
+.wrapper ::selection
+  background: $desc
+  color: white
+img
+  max-width: 100%
+.flex
+  display: flex
+.container
+  min-width: 1030px
+  width: 100%
+  overflow: hidden
+.main
+  height: 100%
+  position: relative
+.title
+  font-family: 'ms900'
+.desc
+  font-family: 'ms100'
+  font-size: 12px

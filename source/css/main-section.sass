@@ -1,0 +1,52 @@
+@import 'colors'
+@import 'mixins'
+
+.main-section
+  &__container
+    max-width: 930px
+    margin: 0 auto
+    position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+  &__img
+    float: left
+    width: 70%
+    padding-left: 30px
+    img
+      position: relative
+  &__content
+    float: left
+    width: 30%
+    padding-left: 47px
+  &__title
+    font-size: 44px
+    line-height: 36px
+  &__desc
+    padding-top: 30px
+    line-height: 18px
+.first
+  height: 87px
+  &__img
+    height: 1px
+    img
+      top: -255px
+.second
+  &__img img
+    top: -60px
+  &__content
+    padding-top: 225px
+.third
+  position: relative
+  &::before
+    position: absolute
+    content: ''
+    background: url('../img/gun1.png') no-repeat
+    background-size: cover
+    width: 96%
+    height: 280px
+    right: 0
+    bottom: 198px
+  &__img img
+    top: -45px

@@ -1,0 +1,21 @@
+@import 'colors'
+@import 'mixins'
+
+.header
+  min-height: 630px
+  position: relative
+  padding-top: 95px
+  background: url('../img/bg1.png') no-repeat bottom center
+  background-size: cover
+  color: white
+  justify-content: center
+  &__content
+    flex: 1
+    text-align: center
+  &__title
+    font-size: 36px
+    letter-spacing: 1px
+  &__desc
+    padding-top: 50px
+    line-height: 2.5
+    color: lighten($desc, 40%)    
